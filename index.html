@@ -8,130 +8,93 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="./assets/js/index.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.js"></script>
-
     <title>Bootstrap Psd</title>
     <style>
         body {
             font-family: 'Quicksand';
-            overflow-x: hidden;
         }
         
-        .nav-link {
-            color: white;
-            padding-left: 20px;
+        #menu {
+            color: rgb(237, 229, 229);
+            font-size: small;
         }
         
-        .nav-link:hover {
+        #menu:hover {
             color: #a9b33b;
+        }
+        
+        #logo {
+            width: 150px;
+        }
+        
+        #button {
+            background-color: #a9b33b;
+            color: rgb(237, 229, 229);
+        }
+        
+        #button:hover {
+            background-color: #3e4306;
         }
     </style>
 </head>
 
 <body>
-    <div class="container-fluid" id="banner">
-        <div class="position-relative"> <img src="./assets/images/banner.png" class="img-fluid" alt="banner"></div>
-        <div class="position-absolute">
 
-            <nav class="container-fluid" id="nav">
+    <header>
+        <div class="row">
+            <!--Navbar-->
+            <div class="col-md-12">
+                <img src="./assets/images/banner.png" class=" img-resposive img-fluid" alt="banner">
+                <div class="container-fluid">
+                    <!-- navbar -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent " id="nav">
+                        <a class="navbar-brand ms-4" href="#">
+                            <img src="assets/images/psd-logo.png" class="img-fluid" width="150px" alt="logo">
+                        </a>
+                        <!-- toggle button -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span></button>
+                        <!-- navbar clickables -->
+                        <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" id="menu" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" id="menu" href="#">PLANS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" id="menu" href="#">LEARN MORE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" id="menu" href="#">WIDGET</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" id="menu" href="#">CONTACT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" id="menu" href="#">FRANÇAIS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" id="menu" href="#">LOG IN</a>
+                                </li>
+                                <!-- button -->
+                                <li class="nav-item">
+                                    <button class="border-0 mt-1 ms-2 ps-3 pe-3" id="button" type="submit">GET THE DEAL</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
 
-                <ul class="nav justify-content-end">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PLANS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">LEARN MORE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="# ">WIDGET</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="# ">CONTACT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="# ">FRANÇAIS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="# ">LOG IN</a>
-                    </li>
-
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <!-- <div>
-        <div class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="400">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="#" class="navbar-brand">Brand</a>
-                    <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                    </ul>
-                    <ul class="nav pull-right navbar-nav">
-                        <li>
-                            <a href="#">Link</a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="badge">2</span></a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
-
-    </div>
-
-    <section class="first">
-
-        <div class="container">
-
-
         </div>
+    </header>
 
-    </section>
-
-    <section>
-
-        <div class="container">
-
-            <h1>Here is some more content</h1>
-
-        </div>
-
-    </section>
-
-    <section>
-
-        <div class="container">
-
-            <h1>Here is some more content</h1>
-
-        </div>
-
-    </section>
-
-    <section>
-
-        <div class="container">
-
-            <h1>Here is some more content</h1>
-
-        </div> -->
-
-    </section>
 </body>
 
 </html>
