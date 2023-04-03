@@ -13,13 +13,8 @@
     <script src="./assets/js/bootstrap.bundle.js"></script>
     <title>Bootstrap Psd</title>
     <style>
-        body {
-            font-family: 'Quicksand';
-            overflow-x: hidden;
-        }
-        
         #menu {
-            color: rgb(237, 229, 229);
+            color: #ffffff;
             font-size: small;
         }
         
@@ -27,41 +22,38 @@
             color: #a9b33b;
         }
         
-        #logo {
-            width: 150px;
-        }
-        
         #button {
+            color: #ffffff;
             background-color: #a9b33b;
-            color: rgb(237, 229, 229);
+            font-size: small;
         }
         
         #button:hover {
-            background-color: #3e4306;
+            background-color: #5f6517;
+        }
+        
+        .navbar-toggler {
+            background-color: #a9b33b
         }
     </style>
 </head>
 
 <body>
-
     <header>
-        <div class="row">
-            <!--Navbar-->
-            <div class="col-md-12">
-                <img src="./assets/images/banner.png" class=" img-resposive img-fluid" alt="banner">
-                <div class="container-fluid">
-                    <!-- navbar -->
-                    <div class="col-md-12">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent" id="nav">
+        <div class="cointainer-fluid">
+            <img src="./assets/images/banner.png" class="img-resposive img-fluid" alt="banner">
+            <div class="container-fluid">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent" id="nav">
+                        <div class="col-3">
+                            <a href="#"> <img src=" assets/images/psd-logo.png " class="img-fluid" width="150px" alt="logo"></a>
+                        </div>
 
+                        <button class="navbar-toggler col-md-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span></button>
+                        <!-- navbar clickables -->
 
-                            <a class="navbar-brand ms-4" href="#">
-                                <img src="assets/images/psd-logo.png" class="img-fluid" width="150px" alt="logo">
-                            </a>
-                            <!-- toggle button -->
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span></button>
-                            <!-- navbar clickables -->
+                        <div class="col-9 ms-4">
                             <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
                                     <li class="nav-item">
@@ -87,37 +79,22 @@
                                     </li>
                                     <!-- button -->
                                     <li class="nav-item">
-                                        <button class="border-0 mt-1 ms-2 ps-3 pe-3" id="button" type="submit">GET THE DEAL</button>
+
+                                        <button class="border-0 mt-2 ms-2 ps-3 pe-3" id="button" type="submit">GET THE DEAL</button>
                                     </li>
                                 </ul>
                             </div>
-                        </nav>
-
-                    </div>
-                </div>
-                <div class="row align-items-end">
-                    <div class="col">
-
-                    </div>
-
-                    <div class="col">
-
-                        <div class="text-left bg-transparent mb-auto" style="color:rgb(0, 0, 0);">
-                            <h3>
-                                <b>Real Estate analysis <br> software in North America</b></h3>
                         </div>
+                </div>
+                </nav>
+            </div>
+            <div class="cointainer">
+                <div class="row">
+                    <div class="col-3" style="color:rgb(0, 0, 0)">
+                        hemanth
                     </div>
                 </div>
-                <div class="col"> </div>
-                <div class="col"> </div>
-                <div class="col"> </div>
-
-
             </div>
         </div>
-
     </header>
-
 </body>
-
-</html>
