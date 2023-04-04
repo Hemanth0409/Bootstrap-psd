@@ -33,7 +33,33 @@
         }
         
         .navbar-toggler {
-            background-color: #a9b33b
+            background-color: #a9b33b;
+            font-size: small;
+        }
+        
+        #font {
+            font-size: 80px;
+            line-height: 100px;
+            color: #aab33c;
+            font-family: "00819 regular";
+        }
+        
+        .best {
+            font-family: 'Ribbon', 'sans-serif';
+            font-size: 70px;
+            color: #aab33c;
+        }
+        
+        @font-face {
+            font-family: 'Ribbon';
+            src: url(./assets/fonts/ribbon/Ribbon131BT-Regular.otf);
+        }
+        
+        #background {
+            background-image: url(./assets/images/banner.png);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: contain;
         }
     </style>
 </head>
@@ -41,20 +67,19 @@
 <body>
     <header>
         <div class="cointainer">
-            <img src="./assets/images/banner.png" class="img-resposive img-fluid" alt="banner">
             <div class="container-fluid">
                 <div class="row">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent" id="nav">
                         <div class="col-3">
-                            <a href="#"> <img src=" assets/images/psd-logo.png " class="img-fluid" width="150px" alt="logo"></a>
+                            <a href="#"> <img src="assets/images/psd-logo.png" class="img-fluid" width="150px" alt="logo"></a>
                         </div>
 
-                        <button class="navbar-toggler col-md-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler col-md-auto" type="button" id="toggle-button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span></button>
                         <!-- navbar clickables -->
 
-                        <div class="col-9 ms-4">
-                            <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+                        <div class="col-9 ms-2">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
                                     <li class="nav-item">
                                         <a class="nav-link link-light" id="menu" href="#">HOME</a>
@@ -68,6 +93,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link link-light" id="menu" href="#">WIDGET</a>
                                     </li>
+
                                     <li class="nav-item">
                                         <a class="nav-link link-light" id="menu" href="#">CONTACT US</a>
                                     </li>
@@ -85,12 +111,13 @@
                                 </ul>
                             </div>
                         </div>
-
                     </nav>
-
+                </div>
+                <div class="bg-image p-5  shadow-1-strong rounded text-white" id="background">
 
                     <div class="row">
-                        <div class="col-md-1" style="color:rgb(0, 0, 0)">
+                        <div class="col-md-6">
+                            <h1 class="mt-5 ms-5 best">The best</h1>
 
                         </div>
                     </div>
