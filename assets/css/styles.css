@@ -1,3 +1,4 @@
+
 #menu {
     color: #e0dddd;
     font-size: small;
@@ -34,7 +35,10 @@
 #banner {
     width: 100vw;
 }
+#card-color {
+    background-color: #d9dda9;
 
+}
 .best {
     font-family: 'Ribbon';
     font-size: 4rem;
@@ -107,8 +111,9 @@
     font-family: "Quicksand";
 }
 
-#click:hover {
+#click:hover,#view-button:hover{
     color: #5f6517;
+
 }
 
 .footer-bg {
@@ -172,3 +177,52 @@
 #addon-wrapping {
     background-color: #acb643;
 }
+#innercard {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    background-color: #fdffe9;
+    margin-top:-40px;
+    position: relative;
+    z-index: 1;
+    font-size: small;
+}
+#green-clr {
+    color: #a9b33b;
+
+}
+
+#green-bg-clr {
+    background-color: #c0ca50;
+}
+
+#green-bg-clr-row {
+    background-color: rgba(190, 197, 108, 0.363);
+}
+
+#toggle-top {
+    background-color: #a9b33b;
+    font-size: x-small;
+
+}
+#footer {
+    background-color: #acb643;
+    font-size: small;
+}
+
+#small-icon {
+    font-size: 80%;
+    font-family: 'quicksand';
+    font-weight: 700px;
+    color: black;
+}
+#P1{font-size: small;}
+
+#view-button{
+background-color: #c0ca50;
+font-size: small;
+color: aliceblue;
+}
+#bg-lap{background-color: #ecf0cb;}
