@@ -1,3 +1,12 @@
+/* font-family */
+
+@font-face {
+    font-family: 'Ribbon';
+    src: url(/assets/fonts/ribbon/Ribbon131BT-Regular.otf);
+}
+
+
+/* toggle */
 
 #menu {
     color: #e0dddd;
@@ -27,18 +36,14 @@
     border: none;
 }
 
-@font-face {
-    font-family: 'Ribbon';
-    src: url(/assets/fonts/ribbon/Ribbon131BT-Regular.otf);
-}
-
 #banner {
     width: 100vw;
 }
+
 #card-color {
     background-color: #d9dda9;
-
 }
+
 .best {
     font-family: 'Ribbon';
     font-size: 4rem;
@@ -111,9 +116,9 @@
     font-family: "Quicksand";
 }
 
-#click:hover,#view-button:hover{
+#click:hover,
+#view-button:hover {
     color: #5f6517;
-
 }
 
 .footer-bg {
@@ -177,6 +182,11 @@
 #addon-wrapping {
     background-color: #acb643;
 }
+
+#innerpara {
+    font-size: x-small;
+}
+
 #innercard {
     display: flex;
     align-items: center;
@@ -184,29 +194,37 @@
     max-width: 300px;
     border: 1px solid #ccc;
     background-color: #fdffe9;
-    margin-top:-40px;
+    margin-top: -40px;
     position: relative;
     z-index: 1;
     font-size: small;
 }
-#green-clr {
-    color: #a9b33b;
 
+#text-1 {
+    text-transform: uppercase;
 }
 
-#green-bg-clr {
+#bg-color {
+    color: #a9b33b;
+    font-family: 'quicksand';
+    color: black;
+    font-size: small;
+    font-weight: lighter;
+}
+
+#bg-card {
     background-color: #c0ca50;
 }
 
-#green-bg-clr-row {
+#bg-card-row {
     background-color: rgba(190, 197, 108, 0.363);
 }
 
 #toggle-top {
     background-color: #a9b33b;
     font-size: x-small;
-
 }
+
 #footer {
     background-color: #acb643;
     font-size: small;
@@ -218,11 +236,17 @@
     font-weight: 700px;
     color: black;
 }
-#P1{font-size: small;}
 
-#view-button{
-background-color: #c0ca50;
-font-size: small;
-color: aliceblue;
+#P1 {
+    font-size: small;
 }
-#bg-lap{background-color: #ecf0cb;}
+
+#view-button {
+    background-color: #c0ca50;
+    font-size: small;
+    color: aliceblue;
+}
+
+#bg-lap {
+    background-color: #ecf0cb;
+}
