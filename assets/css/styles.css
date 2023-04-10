@@ -5,8 +5,12 @@
     src: url(/assets/fonts/ribbon/Ribbon131BT-Regular.otf);
 }
 
+form.error {
+    color: #4c5504;
+}
 
-/* toggle */
+
+/* NAVBAR */
 
 #menu {
     color: #e0dddd;
@@ -44,6 +48,9 @@
     background-color: #d9dda9;
 }
 
+
+/* THE BEST TEXT */
+
 .best {
     font-family: 'Ribbon';
     font-size: 4rem;
@@ -67,6 +74,9 @@
     margin-top: -70%;
     margin-left: 37%;
 }
+
+
+/* FONT IN  ROW1  */
 
 .font {
     font-size: 150%;
@@ -99,32 +109,17 @@
     margin-left: 37%;
 }
 
+
+/* CARD */
+
 #card {
     color: black;
     background-color: #dee39b;
     font-family: 'Quicksand';
 }
 
-#p-1 {
-    font-size: 30px;
-    line-height: 37px;
-    text-transform: uppercase;
-    color: #404142;
-    font-weight: 700;
-    font-family: "Quicksand";
-}
 
-.real {
-    font-size: 150%;
-    text-transform: uppercase;
-    color: #404142;
-    font-weight: 900;
-    font-family: "Quicksand";
-}
-
-#post {
-    width: 100vw;
-}
+/*  */
 
 .centered {
     font-size: 150%;
