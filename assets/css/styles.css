@@ -54,7 +54,6 @@
 
 .font {
     font-size: 150%;
-    line-height: 40px;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
@@ -121,10 +120,6 @@
     color: #5f6517;
 }
 
-.footer-bg {
-    background-image: url(/assets/images/footer-bg.png);
-}
-
 .font-2 {
     width: 260px;
     height: 130px;
@@ -143,7 +138,7 @@
 
 .font-4,
 .font-5 {
-    font-size: 70%;
+    font-size: 60%;
     color: #404142;
     font-weight: 500;
     font-family: "Quicksand";
@@ -158,6 +153,10 @@
 .font-bg-4:hover,
 .font-bg-5:hover {
     color: #848d00;
+}
+
+.footer-bg {
+    background-image: url(/assets/images/footer-bg.png);
 }
 
 .but-footer {
@@ -200,29 +199,31 @@
     font-size: small;
 }
 
+#font-clr {
+    color: #a9b33b;
+}
+
+#bg-color {
+    background-color: #c0ca50;
+}
+
+#bg-color-table {
+    background-color: rgba(190, 197, 108, 0.363);
+}
+
+#font-size {
+    font-size: small;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
 #text-1 {
     text-transform: uppercase;
 }
 
-#bg-color {
-    color: #a9b33b;
-    font-family: 'quicksand';
-    color: black;
+#p2 {
     font-size: small;
-    font-weight: lighter;
-}
-
-#bg-card {
-    background-color: #c0ca50;
-}
-
-#bg-card-row {
-    background-color: rgba(190, 197, 108, 0.363);
-}
-
-#toggle-top {
-    background-color: #a9b33b;
-    font-size: x-small;
 }
 
 #footer {
