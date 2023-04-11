@@ -165,6 +165,12 @@ form.error {
     background-repeat: no-repeat;
 }
 
+#view-button {
+    background-color: #c0ca50;
+    font-size: small;
+    color: aliceblue;
+}
+
 #click:hover,
 #view-button:hover {
     color: #5f6517;
@@ -293,10 +299,16 @@ td {
     font-size: small;
 }
 
+
+/* footer */
+
 #footer {
     background-color: #acb643;
     font-size: small;
 }
+
+
+/* icon-size */
 
 #small-icon {
     font-size: 80%;
@@ -309,15 +321,15 @@ td {
     font-size: small;
 }
 
-#view-button {
-    background-color: #c0ca50;
-    font-size: small;
-    color: aliceblue;
-}
+
+/* background color for laptop */
 
 #bg-lap {
     background-color: #ecf0cb;
 }
+
+
+/* media query */
 
 @media (max-width:320px) {
     #menu {
