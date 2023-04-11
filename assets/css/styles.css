@@ -182,7 +182,7 @@ form.error {
 /* Background for click */
 
 .click-bg {
-    background-image: url(/assets/images/background-img.png);
+    background-image: url(../images/background-img.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -228,7 +228,7 @@ form.error {
 /* footer background */
 
 .footer-bg {
-    background-image: url(/assets/images/footer-bg.png);
+    background-image: url(../images/footer-bg.png);
 }
 
 
