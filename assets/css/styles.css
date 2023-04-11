@@ -31,7 +31,15 @@ form.error {
     border: none;
 }
 
-#button:hover {
+#button-2 {
+    color: #ffffff;
+    background-color: #a9b33b;
+    font-size: small;
+    border: none;
+}
+
+#button:hover,
+#button-2:hover {
     background-color: #5f6517;
 }
 
@@ -311,8 +319,40 @@ td {
     background-color: #ecf0cb;
 }
 
-@media (max-width:425px) {
+@media (max-width:320px) {
     #menu {
-        font-size: 9px;
+        font-size: 7px;
+        line-height: 1px;
+        margin-top: -2px;
+        margin-left: -3%;
+    }
+    #button {
+        display: none
+    }
+    #font-clr {
+        display: none;
+    }
+}
+
+@media(min-width:321px) and (max-width:375px) {
+    #menu {
+        font-size: 7px;
+        line-height: 1px;
+        margin-right: 8%;
+        margin-left: -2%;
+    }
+    #button {
+        display: none
+    }
+}
+
+@media(min-width:376px) and (max-width:425px) {
+    #menu {
+        font-size: 7px;
+        line-height: 3px;
+        margin-left: -2%;
+    }
+    #button {
+        display: none
     }
 }
