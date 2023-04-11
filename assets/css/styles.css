@@ -5,6 +5,9 @@
     src: url(/assets/fonts/ribbon/Ribbon131BT-Regular.otf);
 }
 
+
+/* FORM ERROR MSG */
+
 form.error {
     color: #4c5504;
 }
@@ -21,16 +24,14 @@ form.error {
     color: #a9b33b;
 }
 
-#button,
-#button-2 {
+#button {
     color: #ffffff;
     background-color: #a9b33b;
     font-size: small;
     border: none;
 }
 
-#button:hover,
-#button-2:hover {
+#button:hover {
     background-color: #5f6517;
 }
 
@@ -69,7 +70,7 @@ form.error {
 
 .best2 {
     font-family: 'Ribbon';
-    font-size: 2rem;
+    font-size: 4rem;
     color: #aab33c;
     margin-top: -70%;
     margin-left: 37%;
@@ -86,6 +87,9 @@ form.error {
     font-family: "Quicksand";
     margin-left: 30%;
 }
+
+
+/* button in row1 */
 
 .but {
     text-transform: uppercase;
@@ -107,6 +111,7 @@ form.error {
     color: #ffffff;
     font-family: "Quicksand";
     margin-left: 37%;
+    font-size: larger;
 }
 
 
@@ -119,7 +124,7 @@ form.error {
 }
 
 
-/*  */
+/* content center in row6 */
 
 .centered {
     font-size: 150%;
@@ -132,6 +137,9 @@ form.error {
     text-decoration: none;
 }
 
+
+/* CLICK here */
+
 #click {
     font-size: 150%;
     font-weight: 900;
@@ -139,6 +147,9 @@ form.error {
     text-decoration: none;
     font-family: "Quicksand";
 }
+
+
+/* Background for click */
 
 .click-bg {
     background-image: url(/assets/images/background-img.png);
@@ -149,16 +160,6 @@ form.error {
 #click:hover,
 #view-button:hover {
     color: #5f6517;
-}
-
-.font-2 {
-    width: 260px;
-    height: 130px;
-    font-size: 14px;
-    line-height: 22px;
-    color: #404142;
-    font-weight: 400;
-    font-family: "Quicksand";
 }
 
 .font-3 {
@@ -186,9 +187,15 @@ form.error {
     color: #848d00;
 }
 
+
+/* footer background */
+
 .footer-bg {
     background-image: url(/assets/images/footer-bg.png);
 }
+
+
+/* footer button */
 
 .but-footer {
     color: #ffffff;
@@ -201,9 +208,15 @@ form.error {
     background-color: #8b9429;
 }
 
+
+/* Fav icon-1 color  */
+
 #fav {
     color: #a8b336;
 }
+
+
+/* Fav icon-2 color  */
 
 #fav-2 {
     color: white;
@@ -212,6 +225,9 @@ form.error {
 #addon-wrapping {
     background-color: #acb643;
 }
+
+
+/* row-7 cards */
 
 #innerpara {
     font-size: x-small;
@@ -230,27 +246,39 @@ form.error {
     font-size: small;
 }
 
+
+/* font color */
+
 #font-clr {
     color: #a9b33b;
 }
 
+
+/* background color for table */
+
 #bg-color {
     background-color: #c0ca50;
+    font-family: 'Quicksand';
+}
+
+td {
+    font-size: smaller;
+    font-family: 'Quicksand';
+    font-weight: bold;
 }
 
 #bg-color-table {
     background-color: rgba(190, 197, 108, 0.363);
 }
 
+
+/* font size  */
+
 #font-size {
     font-size: small;
     color: #404142;
     font-weight: 700;
     font-family: "Quicksand";
-}
-
-#text-1 {
-    text-transform: uppercase;
 }
 
 #p2 {
@@ -283,6 +311,8 @@ form.error {
     background-color: #ecf0cb;
 }
 
-body {
-    overflow-x: hidden;
+@media (max-width:425px) {
+    #menu {
+        font-size: 9px;
+    }
 }
