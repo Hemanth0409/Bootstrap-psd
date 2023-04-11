@@ -200,8 +200,9 @@ form.error {
 
 .font-3 {
     font-size: 70%;
-    color: #404142;
+    color: #000000;
     font-family: "Quicksand";
+    font-weight: 500;
 }
 
 .font-4,
