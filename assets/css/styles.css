@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Ribbon';
-    src: url(/assets/fonts/ribbon/Ribbon131BT-Regular.otf);
+    src: url(../fonts/ribbon/Ribbon131BT-Regular.otf);
 }
 
 
@@ -10,6 +10,17 @@
 
 form.error {
     color: #4c5504;
+}
+
+
+/* hover-effect */
+
+#hover-effect:hover {
+    width: 70px;
+}
+
+#hover-effect-2:hover {
+    width: 300px;
 }
 
 
@@ -49,12 +60,23 @@ form.error {
     border: none;
 }
 
+
+/* Banner width */
+
 #banner {
     width: 100vw;
 }
 
+
+/* card color */
+
 #card-color {
     background-color: #d9dda9;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #464646 !important;
+    transition: background-color 200ms linear;
 }
 
 
@@ -209,35 +231,21 @@ form.error {
 }
 
 
-/* footer button */
+/* background color for table */
 
-.but-footer {
-    color: #ffffff;
-    background-color: #acb643;
-    font-size: small;
-    border: none;
+#bg-color {
+    background-color: #c0ca50;
+    font-family: 'Quicksand';
 }
 
-.but-footer:hover {
-    background-color: #8b9429;
+td {
+    font-size: smaller;
+    font-family: 'Quicksand';
+    font-weight: bold;
 }
 
-
-/* Fav icon-1 color  */
-
-#fav {
-    color: #a8b336;
-}
-
-
-/* Fav icon-2 color  */
-
-#fav-2 {
-    color: white;
-}
-
-#addon-wrapping {
-    background-color: #acb643;
+#bg-color-table {
+    background-color: rgba(190, 197, 108, 0.363);
 }
 
 
@@ -268,24 +276,6 @@ form.error {
 }
 
 
-/* background color for table */
-
-#bg-color {
-    background-color: #c0ca50;
-    font-family: 'Quicksand';
-}
-
-td {
-    font-size: smaller;
-    font-family: 'Quicksand';
-    font-weight: bold;
-}
-
-#bg-color-table {
-    background-color: rgba(190, 197, 108, 0.363);
-}
-
-
 /* font size  */
 
 #font-size {
@@ -301,6 +291,38 @@ td {
 
 
 /* footer */
+
+
+/* footer button */
+
+.but-footer {
+    color: #ffffff;
+    background-color: #acb643;
+    font-size: small;
+    border: none;
+}
+
+.but-footer:hover {
+    background-color: #8b9429;
+}
+
+
+/* Fav icon-1 color  */
+
+#fav {
+    color: #a8b336;
+}
+
+
+/* Fav icon-2 color  */
+
+#fav-2 {
+    color: white;
+}
+
+#addon-wrapping {
+    background-color: #acb643;
+}
 
 #footer {
     background-color: #acb643;
